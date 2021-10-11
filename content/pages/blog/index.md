@@ -13,4 +13,24 @@ sections:
       - content/pages/blog/post-one.md
     title: Latest blog posts
     subtitle: Example of latest blog posts section
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    topGap: medium
+    bottomGap: medium
+    contentWidth: large
+    contentAlignHoriz: left
+    contentAlignVert: middle
+    textAlign: center
+    variant: variant-a
+    badge: {}
+    title: About us
+    subtitle: Meet the team
+    actions: []
+    people:
+      - content/data/team/desmond-eagle.json
+      - content/data/team/dianne-ameter.json
+      - content/data/team/hilary-ouse.json
+    type: FeaturedPeopleSection
 ---
