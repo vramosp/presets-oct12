@@ -113,7 +113,7 @@ sections:
     bottomGap: medium
     contentWidth: large
     contentAlignHoriz: right
-    contentAlignVert: middle
+    contentAlignVert: bottom
     textAlign: right
     quote: >-
       “It’s great to see someone taking action while still maintaining a
