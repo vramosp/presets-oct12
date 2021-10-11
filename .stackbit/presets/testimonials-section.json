@@ -13,7 +13,7 @@
         },
         {
             "label": "Light image left, with title",
-            "thumbnail": "images/hero-left.jpg",
+            "thumbnail": "images/testimonials-light2jpg",
             "data": {
                 "variant": "variant-b",
                 "colors": "colors-a",
