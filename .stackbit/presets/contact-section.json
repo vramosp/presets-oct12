@@ -4,7 +4,7 @@
             "label": "Contact us",
             "thumbnail": "images/placeholder.png",
             "data": {
-                "title": "Contact us",
+                "title": "Contact us - Image",
                 "subtitle": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-c",
@@ -17,7 +17,7 @@
             "label": "Subscribe",
             "thumbnail": "images/placeholder.png",
             "data": {
-                "title": "Subscribe",
+                "title": "Subscribe ",
                 "subtitle": "T",
                 "variant": "variant-b",
                 "colors": "colors-c",
