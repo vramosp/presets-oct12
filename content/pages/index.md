@@ -47,7 +47,7 @@ sections:
       altText: Image alt text
       caption: Image caption
   - elementId: ''
-    colors: colors-e
+    colors: colors-a
     width: wide
     height: tall
     contentWidth: large
