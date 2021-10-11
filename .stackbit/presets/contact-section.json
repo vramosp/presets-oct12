@@ -14,11 +14,11 @@
             }
         },
         {
-            "label": "Subscribe",
+            "label": "Contact us - No image",
             "thumbnail": "images/placeholder.png",
             "data": {
-                "title": "Contact us - No image ",
-                "subtitle": "T",
+                "title": " ",
+                "subtitle": "",
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
