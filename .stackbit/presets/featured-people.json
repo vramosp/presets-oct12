@@ -22,7 +22,7 @@
         },
         {
             "label": "2 columns dark",
-            "thumbnail": "images/featured-posts-2-dark.jpg",
+            "thumbnail": "images/placeholder.png",
             "data": {
                 "variant": "variant-b",
                 "badge": "",
