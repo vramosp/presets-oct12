@@ -39,19 +39,6 @@
                 "idAttr": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
-        },
-        {
-            "label": "Contact us light - With right image",
-            "thumbnail": "images/placeholder.png",
-            "data": {
-                "title": "Contact us",
-                "text": "We look forward to hearing from you.",
-                "variant": "variant-a",
-                "colors": "colors-a",
-                "badge": "",
-                "idAttr": "contact-form",
-                "action": "/.netlify/functions/submission_created"
-            }
         }
     ]
 }
