@@ -34,7 +34,7 @@
             }
         },
         {
-            "label": "Image bottom",
+            "label": "Dark image left, without title",
             "thumbnail": "images/hero-bottom.jpg",
             "data": {
                 "variant": "variant-b",
