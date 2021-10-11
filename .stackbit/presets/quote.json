@@ -10,6 +10,7 @@
                 "textAlign": "left",
                 "backgroundImage": {
                     "url": "/images/post-1.jpg",
+                    "altText"
                 }
             }
         },
