@@ -1,10 +1,10 @@
 {
     "model": "ContactSection",
     "presets": [{
-            "label": "Contact us",
+            "label": "Contact us - With Image",
             "thumbnail": "images/placeholder.png",
             "data": {
-                "title": "Contact us - Image",
+                "title": "Contact us",
                 "subtitle": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-c",
