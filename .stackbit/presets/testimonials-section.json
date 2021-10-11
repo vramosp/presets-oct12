@@ -5,6 +5,7 @@
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "variant": "variant-a",
+                "colors": "colors-a",
                 "title": "Testimonials",
                 "subtitle": "What our customers say about us",
                 "badge":""
