@@ -2,7 +2,7 @@
     "model": "FeaturedPeopleSection",
     "presets": [{
             "label": "4 columns light",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/people-4-col-dark.jpg",
             "data": {
                 "variant": "variant-a",
                 "badge": "",
