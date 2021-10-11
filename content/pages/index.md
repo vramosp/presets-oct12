@@ -202,25 +202,6 @@ sections:
     idAttr: contact-form
     action: /.netlify/functions/submission_created
     type: ContactSection
-  - type: CtaSection
-    variant: variant-b
-    colors: colors-c
-    width: wide
-    height: short
-    textAlign: left
-    contentAlignHoriz: center
-    contentWidth: medium
-    bottomGap: none
-    topGap: none
-    title: null
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
-    actions:
-      - type: Button
-        label: Get Started
-        url: 'https://www.stackbit.com/'
-        style: primary
   - elementId: ''
     colors: colors-f
     width: wide
