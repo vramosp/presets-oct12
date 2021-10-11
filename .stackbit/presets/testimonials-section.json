@@ -23,7 +23,7 @@
             }
         },
         {
-            "label": "Dar",
+            "label": "Dark image bottom, without title",
             "thumbnail": "images/hero-top.jpg",
             "data": {
                 "variant": "variant-a",
