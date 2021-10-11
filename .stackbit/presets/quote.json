@@ -20,7 +20,7 @@
             "data": {
                 "colors": "colors-c",
                 "contentAlignHoriz": "left",
-                "contentAlighVert": "middle",
+                "contentAlighVert": "",
                 "textAlign": "left",
                 "backgroundImage": {
                     "url": "/images/post-1.jpeg",
