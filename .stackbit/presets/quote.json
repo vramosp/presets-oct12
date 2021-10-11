@@ -32,7 +32,7 @@
             "label": "Without bg imagem text left",
             "thumbnail": "images/hero-right.jpg",
             "data": {
-                "colors": "colors-h",
+                "colors": "colors-c",
                 "contentAlignHoriz": "left",
                 "contentAlignVert": "bottom",
                 "textAlign": "left",
@@ -43,7 +43,7 @@
             "label": "Without bg imagem text right",
             "thumbnail": "images/hero-right.jpg",
             "data": {
-                "colors": "colors-h",
+                "colors": "colors-c",
                 "contentAlignHoriz": "right",
                 "contentAlignVert": "bottom",
                 "textAlign": "right",
