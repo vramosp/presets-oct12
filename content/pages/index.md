@@ -47,7 +47,7 @@ sections:
       altText: Image alt text
       caption: Image caption
   - elementId: ''
-    colors: colors-f
+    colors: colors-a
     width: wide
     height: tall
     contentWidth: large
@@ -57,39 +57,44 @@ sections:
     bottomGap: none
     textAlign: left
     variant: variant-a
-    badge:
-      elementId: ''
-      label: lorem-ipsum
-    title: This Is A Big Hero Headline
-    subtitle: This Is Subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions:
-      - type: Button
-        label: Get Started
-        url: /
-        style: primary
-        elementId: hero-main-button
-      - type: Button
-        label: Learn More
-        url: /
-        style: secondary
-    feature:
-      type: ImageBlock
-      url: /images/hero.png
-      altText: Hero section image
-    backgroundImage:
-      elementId: ''
-      altText: lorem-ipsum
-      caption: lorem-ipsum
-      opacity: 100
-      type: ImageBlock
-    type: HeroSection
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature: ''
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
   - elementId: ''
-    colors: colors-f
+    colors: colors-a
     width: wide
     height: tall
     contentWidth: large
@@ -98,36 +103,390 @@ sections:
     topGap: none
     bottomGap: none
     textAlign: left
-    variant: variant-d
+    variant: variant-a
     badge: {}
-    title: This Is A Big Hero Headline
-    subtitle: This Is Subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions:
-      - type: Button
-        label: Get Started
-        url: /
-        style: primary
-        elementId: hero-main-button
-      - type: Button
-        label: Learn More
-        url: /
-        style: secondary
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
     feature:
       type: ImageBlock
-      url: /images/hero.png
-      altText: Hero section image
-    backgroundImage:
-      elementId: ''
-      altText: lorem-ipsum
-      caption: lorem-ipsum
-      opacity: 100
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-b
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
       type: ImageBlock
-    type: HeroSection
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-b
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-c
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature: ''
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-c
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-c
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-c
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature: ''
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
   - elementId: ''
     colors: colors-c
     width: wide
@@ -152,22 +511,300 @@ sections:
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
     type: FeaturedPostsSection
-  - type: FeaturedPostsSection
-    variant: variant-b
-    colors: colors-c
+  - elementId: ''
+    colors: colors-b
     width: wide
-    height: short
-    contentWidth: medium
+    height: tall
+    contentWidth: large
     contentAlignHoriz: center
     contentAlignVert: middle
-    bottomGap: none
     topGap: none
-    title: Blog Posts
-    textAlign: center
-    posts:
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-one.md
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-b
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-b
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-b
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature: ''
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature: ''
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
   - elementId: ''
     colors: colors-a
     width: wide
@@ -250,47 +887,56 @@ sections:
       url: /images/contact.png
       altText: Contact form image
     type: ContactSection
-  - type: TestimonialsSection
-    variant: variant-b
-    colors: colors-h
-    width: wide
-    height: short
-    textAlign: left
-    bottomGap: none
-    topGap: none
-    contentAlignHoriz: center
-    badge:
-      elementId: ''
-      label: lorem-ipsum
-    testimonials:
-      - quote: >-
-          “It’s great to see someone taking action while still maintaining a
-          sustainable fish supply to home cooks.”
-        name: Isabelle Parks
-        title: Head chef at Parks
-        image:
-          type: ImageBlock
-          url: /images/isabelle-parks.jpg
-          altText: Isabelle Parks
-  - type: CtaSection
-    variant: variant-b
+  - elementId: ''
     colors: colors-c
     width: wide
-    height: short
-    textAlign: left
+    height: tall
+    contentWidth: large
     contentAlignHoriz: center
-    contentWidth: medium
-    bottomGap: none
+    contentAlignVert: middle
     topGap: none
-    title: null
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
-    actions:
-      - type: Button
-        label: Get Started
-        url: 'https://www.stackbit.com/'
-        style: primary
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: We look forward to hearing from you.
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
   - elementId: ''
     colors: colors-f
     width: wide
@@ -631,4 +1277,65 @@ sections:
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
     type: FeaturedPostsSection
+  - elementId: ''
+    colors: colors-c
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: >-
+      ## Lorem ipsum
+
+
+      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+      - Lorem ipsum
+
+      - dolor sit amet
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    subtitle: We look forward to hearing from you.
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
 ---
