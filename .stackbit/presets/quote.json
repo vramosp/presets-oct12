@@ -5,7 +5,7 @@
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "colors": "colors-c",
-                "topgap":"none",
+                "topGap":"none",
                 ""
             }
         },
