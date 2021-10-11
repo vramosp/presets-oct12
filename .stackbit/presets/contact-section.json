@@ -1,21 +1,25 @@
 {
-    "model": "CtaSection",
+    "model": "ContactSection",
     "presets": [{
-            "label": "Button bottom",
-            "thumbnail": "images/cta-bottom.jpg",
-            "data": {
-                "variant": "variant-a",
-                "colors": "colors-c",
-                "badge": ""
-            }
-        },
-        {
-            "label": "Button right",
-            "thumbnail": "images/cta-right.jpg",
+            "label": "No image",
+            "thumbnail": "images/placeholder.png",
             "data": {
                 "variant": "variant-b",
                 "colors": "colors-c",
-                "badge": ""
+                "badge": "",
+                "idAttr": "contact-form",
+                "action": "/.netlify/functions/submission_created"
+            }
+        },
+        {
+            "label": "Image left",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-c",
+                "badge": "",
+                "idAttr": "contact-form",
+                "action": "/.netlify/functions/submission_created"
             }
         }
     ]
