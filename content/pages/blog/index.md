@@ -94,6 +94,5 @@ sections:
       - content/data/team/hilary-ouse.json
       - content/data/person-4cj0agggn.json
       - content/data/person-5hh085n7i.json
-      - content/data/person-cr0m0w4og.json
     type: FeaturedPeopleSection
 ---
