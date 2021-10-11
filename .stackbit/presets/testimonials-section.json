@@ -35,8 +35,11 @@
             "label": "Image bottom",
             "thumbnail": "images/hero-bottom.jpg",
             "data": {
-                "variant": "variant-d",
-                "badge": ""
+                "variant": "variant-a",
+                "colors": "colors-c",
+                "title": "Testimonials",
+                "subtitle": "What our customers say about us",
+                "badge":""
             }
         }
     ]
