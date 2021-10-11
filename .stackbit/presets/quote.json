@@ -44,7 +44,7 @@
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "colors": "colors-c",
-                "contentAlignHoriz": "right",
+                "contentAlignHoriz": "top",
                 "contentAlignVert": "bottom",
                 "textAlign": "right",
                 "backgroundImage": {}
