@@ -24,8 +24,10 @@
             "label": "Image top",
             "thumbnail": "images/hero-top.jpg",
             "data": {
-                "variant": "variant-c",
-                "badge": ""
+"variant": "variant-a",
+                "title": "Testimonials",
+                "subtitle": "What our customers say about us",
+                "badge":""
             }
         },
         {
