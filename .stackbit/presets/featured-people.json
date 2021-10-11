@@ -1,7 +1,7 @@
 {
     "model": "FeaturedPeopleSection",
     "presets": [{
-            "label": "4 col light color",
+            "label": "4 col light",
             "thumbnail": "images/placeholder.png",
             "data": {
                 "variant": "variant-a",
@@ -11,7 +11,7 @@
             }
         },
         {
-            "label": "2 ",
+            "label": "2 col light ",
             "thumbnail": "images/placeholder.png",
             "data": {
                 "variant": "variant-b",
