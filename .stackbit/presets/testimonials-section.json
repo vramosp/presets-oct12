@@ -24,7 +24,7 @@
         },
         {
             "label": "Dark image bottom, without title",
-            "thumbnail": "images/testimonials-darkt1.jpg",
+            "thumbnail": "images/testimonials-dark1.jpg",
             "data": {
                 "variant": "variant-a",
                 "colors": "colors-c",
