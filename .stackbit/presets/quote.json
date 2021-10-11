@@ -15,7 +15,7 @@
             }
         },
         {
-            "label": "With bg image, text left",
+            "label": "With bg image, text rigth",
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "colors": "colors-c",
