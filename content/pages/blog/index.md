@@ -72,7 +72,7 @@ sections:
   - elementId: ''
     colors: colors-h
     width: wide
-    height: tall
+    height: viewport
     topGap: medium
     bottomGap: medium
     contentWidth: large
