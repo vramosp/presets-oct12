@@ -17,7 +17,8 @@
             "label": "Subscribe",
             "thumbnail": "images/placeholder.png",
             "data": {
-                "titl"
+                "title": "Contact us",
+                "subtitle": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
