@@ -41,7 +41,7 @@
         },
         {
             "label": "Without bg imagem text right",
-            "thumbnail": "images/hero-right.jpg",
+            "thumbnail": "images/quote-dark-bottom.jpg",
             "data": {
                 "colors": "colors-c",
                 "contentAlignHoriz": "right",
