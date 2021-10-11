@@ -4,7 +4,8 @@
             "label": "Image right",
             "thumbnail": "images/hero-right.jpg",
             "data": {
-                "colors": "variant-c"
+                "colors": "variant-c",
+                "variant":
             }
         },
         {
