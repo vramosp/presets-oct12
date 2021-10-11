@@ -32,7 +32,7 @@
         },
         {
             "label": "4 columns dark",
-            "thumbnail": "images/people-4-col-dark.jpg.png",
+            "thumbnail": "images/people-4-col-dark.jpg",
             "data": {
                 "variant": "variant-a",
                 "badge": "",
