@@ -30,7 +30,7 @@
         },
         {
             "label": "Without bg imagem text left",
-            "thumbnail": "images/quote-black-bottom.jpg",
+            "thumbnail": "images/quote-dark-bottom.jpg",
             "data": {
                 "colors": "colors-c",
                 "contentAlignHoriz": "left",
