@@ -2,7 +2,7 @@
     "model": "FeaturedPeopleSection",
     "presets": [{
             "label": "4 columns light",
-            "thumbnail": "images/people-4-col-dark.jpg",
+            "thumbnail": "images/people-4-col-light.jpg",
             "data": {
                 "variant": "variant-a",
                 "badge": "",
@@ -22,7 +22,7 @@
         },
         {
             "label": "2 columns dark",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/people-2-col-dark.jpg.png",
             "data": {
                 "variant": "variant-b",
                 "badge": "",
@@ -32,7 +32,7 @@
         },
         {
             "label": "3 columns dark",
-            "thumbnail": "images/placeholder.png",
+            "thumbnail": "images/people-4-col-dark.jpg.png",
             "data": {
                 "variant": "variant-a",
                 "badge": "",
