@@ -93,6 +93,5 @@ sections:
       - content/data/team/dianne-ameter.json
       - content/data/team/hilary-ouse.json
       - content/data/person-4cj0agggn.json
-      - content/data/person-5hh085n7i.json
     type: FeaturedPeopleSection
 ---
