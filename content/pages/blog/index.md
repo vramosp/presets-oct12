@@ -58,7 +58,7 @@ sections:
     contentWidth: large
     contentAlignHoriz: left
     contentAlignVert: middle
-    textAlign: right
+    textAlign: left
     quote: >-
       “It’s great to see someone taking action while still maintaining a
       sustainable fish supply to home cooks.”
