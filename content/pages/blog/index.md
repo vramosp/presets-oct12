@@ -50,7 +50,7 @@ sections:
     title: Product Marketing Manager at Acme
     type: QuoteSection
   - elementId: ''
-    colors: colors-a
+    colors: colors-b
     width: wide
     height: tall
     topGap: medium
