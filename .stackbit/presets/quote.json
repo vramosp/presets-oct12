@@ -6,8 +6,9 @@
             "data": {
                 "colors": "colors-c",
                 "contentAlignHoriz":"left",
-                "contentAlighVert":middle;
-\            }
+                "contentAlighVert":"middle",
+                "textAlign": "left",
+                        }
         },
         {
             "label": "Image left",
