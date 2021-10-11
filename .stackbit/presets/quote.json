@@ -34,7 +34,7 @@
             "data": {
                 "colors": "colors-h",
                 "contentAlignHoriz": "left",
-                "contentAlighVert": "bottom",
+                "contentAlignVert": "bottom",
                 "textAlign": "left",
                 "backgroundImage": {}
             }
