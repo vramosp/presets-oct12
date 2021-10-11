@@ -2,7 +2,7 @@
     "model": "TestimonialsSection",
     "presets": [{
             "label": "Light image bottom, with title",
-            "thumbnail": "images/hero-right.jpg",
+            "thumbnail": "images/testimonials-light1.jpg",
             "data": {
                 "variant": "variant-a",
                 "colors": "colors-a",
