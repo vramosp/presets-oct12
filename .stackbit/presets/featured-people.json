@@ -22,7 +22,7 @@
         },
         {
             "label": "2 columns dark",
-            "thumbnail": "images/people-2-col-dark.jpg.png",
+            "thumbnail": "images/people-2-col-dark.jpg",
             "data": {
                 "variant": "variant-b",
                 "badge": "",
