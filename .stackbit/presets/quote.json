@@ -8,7 +8,9 @@
                 "contentAlignHoriz": "left",
                 "contentAlighVert": "middle",
                 "textAlign": "left",
-                "backgroundImage"
+                "backgroundImage": {
+                    
+                }
             }
         },
         {
