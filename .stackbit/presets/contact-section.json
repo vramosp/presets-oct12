@@ -19,7 +19,7 @@
             "data": {
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
-                "variant": "variant-a",
+                "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
                 "idAttr": "contact-form",
