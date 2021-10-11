@@ -4,6 +4,7 @@
             "label": "No image",
             "thumbnail": "images/placeholder.png",
             "data": {
+                "title": 
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
