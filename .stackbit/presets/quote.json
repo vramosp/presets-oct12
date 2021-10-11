@@ -27,6 +27,17 @@
                     "altText": "Product Marketing Manager Quote"
                 }
             }
+        },
+        {
+            "label": "Without bg imagem text left",
+            "thumbnail": "images/hero-right.jpg",
+            "data": {
+                "colors": "colors-a",
+                "contentAlignHoriz": "left",
+                "contentAlighVert": "bottom",
+                "textAlign": "left",
+                "backgroundImage": {}
+            }
         }
         
     ]
