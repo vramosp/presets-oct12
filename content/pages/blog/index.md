@@ -48,9 +48,6 @@ sections:
       sustainable fish supply to home cooks.”
     name: Johnna Doe
     title: Product Marketing Manager at Acme
-    backgroundImage:
-      url: /images/post-1.jpeg
-      altText: Product Marketing Manager
     type: QuoteSection
   - elementId: ''
     colors: colors-c
