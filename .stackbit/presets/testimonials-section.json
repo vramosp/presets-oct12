@@ -24,7 +24,8 @@
             "label": "Image top",
             "thumbnail": "images/hero-top.jpg",
             "data": {
-"variant": "variant-a",
+                "variant": "variant-a",
+                "colors": "colors-c",
                 "title": "Testimonials",
                 "subtitle": "What our customers say about us",
                 "badge":""
