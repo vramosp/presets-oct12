@@ -6,7 +6,7 @@
             "data": {
                 "colors": "colors-c",
                 "contentAlignHoriz": "left",
-                "contentAlighVert": "bottom",
+                "contentAlignVert": "bottom",
                 "textAlign": "left",
                 "backgroundImage": {
                     "url": "/images/post-1.jpeg",
