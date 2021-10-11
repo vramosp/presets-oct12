@@ -5,7 +5,7 @@
             "thumbnail": "images/placeholder.png",
             "data": {
                 "title": "Contact us",
-                "subtitle": "We look forward to hearing from you.",
+                "text": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
@@ -18,7 +18,7 @@
             "thumbnail": "images/placeholder.png",
             "data": {
                 "title": "Contact us",
-                "subtitle": "We look forward to hearing from you.",
+                "text": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
