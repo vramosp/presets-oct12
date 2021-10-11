@@ -17,8 +17,8 @@
             "label": "Contact us - No image",
             "thumbnail": "images/placeholder.png",
             "data": {
-                "title": " ",
-                "subtitle": "",
+                "title": "Contact us",
+                "subtitle": "We look forward to hearing from you.",
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
