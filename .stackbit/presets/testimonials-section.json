@@ -12,7 +12,7 @@
             }
         },
         {
-            "label": "Light image right, with title",
+            "label": "Light image left, with title",
             "thumbnail": "images/hero-left.jpg",
             "data": {
                 "variant": "variant-b",
