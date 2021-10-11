@@ -103,7 +103,7 @@ sections:
     topGap: none
     bottomGap: none
     textAlign: left
-    variant: variant-b
+    variant: variant-a
     badge: {}
     title: Contact us
     text: We look forward to hearing from you.
