@@ -1,7 +1,7 @@
 {
     "model": "TestimonialsSection",
     "presets": [{
-            "label": "Light image bottom",
+            "label": "Light image bottom, with title",
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "variant": "variant-a",
