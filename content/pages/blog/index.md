@@ -385,6 +385,32 @@ sections:
           altText: Product Marketing Manager
     type: TestimonialsSection
   - elementId: ''
+    colors: colors-c
+    width: wide
+    height: short
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge: {}
+    title: ''
+    subtitle: ''
+    testimonials:
+      - type: Testimonial
+        quote: >-
+          “It’s great to see someone taking action while still maintaining a
+          sustainable fish supply to home cooks.”
+        name: Johnna Doe
+        title: Product Marketing Manager at Acme
+        image:
+          type: ImageBlock
+          url: /images/dianne-ameter.jpg
+          altText: Product Marketing Manager
+    type: TestimonialsSection
+  - elementId: ''
     colors: colors-h
     width: wide
     height: short
