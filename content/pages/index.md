@@ -631,4 +631,65 @@ sections:
       - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
     type: FeaturedPostsSection
+  - elementId: ''
+    colors: colors-c
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-b
+    badge: {}
+    title: Contact us
+    text: >-
+      ## Lorem ipsum
+
+
+      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+      - Lorem ipsum
+
+      - dolor sit amet
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    subtitle: We look forward to hearing from you.
+    idAttr: contact-form
+    action: /.netlify/functions/submission_created
+    type: ContactSection
 ---
