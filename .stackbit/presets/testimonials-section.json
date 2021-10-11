@@ -35,7 +35,7 @@
             "label": "Image bottom",
             "thumbnail": "images/hero-bottom.jpg",
             "data": {
-                "variant": "variant-a",
+                "variant": "variant-b",
                 "colors": "colors-c",
                 "title": "Testimonials",
                 "subtitle": "What our customers say about us",
