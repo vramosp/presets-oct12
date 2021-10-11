@@ -6,7 +6,8 @@
             "data": {
                 "variant": "variant-a",
                 "title": "Testimonials",
-                "text": "What our customers say about us"
+                "text": "What our customers say about us",
+                "badge":""
             }
         },
         {
