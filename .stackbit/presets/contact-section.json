@@ -5,6 +5,9 @@
             "thumbnail": "images/placeholder.png",
             "data": {
                 "title": "Contact us"
+                "subtitle": "We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not.
+
+"
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
