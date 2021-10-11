@@ -22,6 +22,7 @@
                 "variant": "variant-b",
                 "colors": "colors-c",
                 "badge": "",
+                "ImageBlock": ""
                 "idAttr": "contact-form",
                 "action": "/.netlify/functions/submission_created"
             }
