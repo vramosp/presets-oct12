@@ -4,7 +4,8 @@
             "label": "Image right",
             "thumbnail": "images/hero-right.jpg",
             "data": {
-                "variant": "variant-a"
+                "variant": "variant-a",
+                "title": "What our customers say about us"
             }
         },
         {
