@@ -6,7 +6,7 @@
             "data": {
                 "colors": "colors-c",
                 "topGap":"none",
-                ""
+                "bottomGap": 
             }
         },
         {
