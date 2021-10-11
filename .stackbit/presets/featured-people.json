@@ -12,7 +12,7 @@
         },
         {
             "label": "2 columns light ",
-            "thumbnail": "images/people-2-col-dark.jpg",
+            "thumbnail": "images/people-2-col-light.jpg",
             "data": {
                 "variant": "variant-b",
                 "badge": "",
