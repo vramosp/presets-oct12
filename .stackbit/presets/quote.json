@@ -40,7 +40,7 @@
             }
         },
         {
-            "label": "Without bg imagem text left",
+            "label": "Without bg imagem text right",
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "colors": "colors-h",
