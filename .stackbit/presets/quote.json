@@ -11,7 +11,7 @@
             "label": "Image left",
             "thumbnail": "images/hero-left.jpg",
             "data": {
-                "variant": "variant-b",
+                "variant": "variant-c",
                 "badge": ""
             }
         },
