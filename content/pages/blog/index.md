@@ -108,7 +108,7 @@ sections:
   - elementId: ''
     colors: colors-c
     width: wide
-    height: tall
+    height: viewport
     topGap: medium
     bottomGap: medium
     contentWidth: large
