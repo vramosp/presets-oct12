@@ -45,7 +45,7 @@
             "data": {
                 "colors": "colors-c",
                 "contentAlignHoriz": "top",
-                "contentAlignVert": "bottom",
+                "contentAlignVert": "top",
                 "textAlign": "right",
                 "backgroundImage": {}
             }
