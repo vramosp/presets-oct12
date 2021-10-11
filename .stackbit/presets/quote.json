@@ -1,7 +1,7 @@
 {
     "model": "QuoteSection",
     "presets": [{
-            "label": "Image right",
+            "label": "With bg image, text left",
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "colors": "colors-c",
