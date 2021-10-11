@@ -14,6 +14,19 @@
             }
         },
         {
+            "label": "Contact us dark - With image (right)",
+            "thumbnail": "images/placeholder.png",
+            "data": {
+                "title": "Contact us",
+                "text": "We look forward to hearing from you.",
+                "variant": "variant-b",
+                "colors": "colors-c",
+                "badge": "",
+                "idAttr": "contact-form",
+                "action": "/.netlify/functions/submission_created"
+            }
+        },
+        {
             "label": "Contact us dark - No image",
             "thumbnail": "images/placeholder.png",
             "data": {
