@@ -1,7 +1,7 @@
 {
     "model": "ContactSection",
     "presets": [{
-            "label": "Contact us - With Image",
+            "label": "Contact us dark - With Image",
             "thumbnail": "images/placeholder.png",
             "data": {
                 "title": "Contact us",
