@@ -47,7 +47,7 @@
                 "title": "Contact us",
                 "text": "We look forward to hearing from you.",
                 "variant": "variant-a",
-                "colors": "colors-a",
+                "colors": "colors-b",
                 "badge": "",
                 "idAttr": "contact-form",
                 "action": "/.netlify/functions/submission_created"
