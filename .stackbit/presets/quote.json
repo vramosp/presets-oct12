@@ -5,8 +5,8 @@
             "thumbnail": "images/hero-right.jpg",
             "data": {
                 "colors": "colors-c",
-                "contentAlignHoriz":"left",
-                "contentAlighVert":"middle",
+                "contentAlignHoriz": "left",
+                "contentAlighVert": "middle",
                 "textAlign": "left",
             }
         },
