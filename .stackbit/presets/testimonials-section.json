@@ -14,7 +14,7 @@
             "label": "Image left",
             "thumbnail": "images/hero-left.jpg",
             "data": {
-                "variant": "variant-a",
+                "variant": "variant-b",
                 "title": "Testimonials",
                 "subtitle": "What our customers say about us",
                 "badge":""
