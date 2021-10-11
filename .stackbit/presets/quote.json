@@ -16,7 +16,7 @@
         },
         {
             "label": "With bg image, text rigth",
-            "thumbnail": "images/hero-right.jpg",
+            "thumbnail": "images/quote-image-top.jpg",
             "data": {
                 "colors": "colors-c",
                 "contentAlignHoriz": "right",
