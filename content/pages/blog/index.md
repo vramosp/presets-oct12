@@ -70,7 +70,7 @@ sections:
     contentAlighVert: middle
     type: QuoteSection
   - elementId: ''
-    colors: colors-h
+    colors: colors-i
     width: wide
     height: tall
     topGap: medium
