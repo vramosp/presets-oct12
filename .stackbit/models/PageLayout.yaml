@@ -6,7 +6,7 @@ hideContent: true
 fields:
   - type: string
     name: title
-    label: Title
+    label: Page title
     default: This is a new page
   - type: list
     name: sections
