@@ -8,6 +8,11 @@ fields:
     name: title
     label: Page title
     default: This is a new page
+  - type: string
+    test: test
+    label: test
+    default: testing
+    required: true
   - type: list
     name: sections
     label: Sections
